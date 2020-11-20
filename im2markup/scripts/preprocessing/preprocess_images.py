@@ -88,7 +88,6 @@ def main(args):
     pad_size = json.loads(parameters.pad_size)
     buckets = json.loads(parameters.buckets)
     print buckets[0]
-    raw_input()
     downsample_ratio = parameters.downsample_ratio
 
     filenames = glob.glob(os.path.join(input_dir, '*'+postfix))
